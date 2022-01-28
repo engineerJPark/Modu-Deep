@@ -1,0 +1,5 @@
+.CIFAR10
+.PyTorch-master
+CIFAR10_data
+custom_data
+model
