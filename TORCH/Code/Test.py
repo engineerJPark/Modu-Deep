@@ -1,4 +1,8 @@
-list1 = [1,2,3,4,5,6,7,8,8,9,2,87,67,56,5,4,3,2,1]
+import torch
 
-for i, data in enumerate(list1):
-    print(i, data)  
+x = torch.randn(1,3,3)
+print(x)
+y = x.argmax(dim=2)
+# y = torch.argmax(x, dim=2)
+
+print(y)
